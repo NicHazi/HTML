@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            text-decoration: underline lime;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content: "[link]";
+            font-weight: normal;
+            color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel">Adobe Color</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+        <li><a href="https://www.terabyteshop.com.br/">Terabyte</a></li>
+    </ul>
+</body>
+</html>

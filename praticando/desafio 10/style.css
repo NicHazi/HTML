@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('matrial/fontes/idroid.otf');
+}
+
+.fonte{
+    font-family: 'idroid';
+    color: green;
+}
+
+body{
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin: auto;
+    width: 600px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+img{
+    width: 590px;
+}
+
+header{
+    height: 180px;
+    padding: 8px 10px 8px 10px;
+    margin: -8px -8px 0px -7px;
+    background-color: #2da262;
+    
+}
+
+nav >a{
+    font-weight: bold;
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#centro{
+    text-align: center;
+    color: white;
+}
+
+#centro02{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+
+nav >a:hover{
+     color: darkblue;
+}
+
+p{
+    text-indent: 25px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+article >aside{
+    background-color: rgba(5, 235, 5, 0.26);
+    padding-left: 5px;
+    font-family: 'idroid';
+    color: green;
+}
+
+.pequeno{
+    padding: 0px 200px 20px 200px;
+    width: 200px;
+}
+
+iframe{
+    padding: 0px;
+}
+
+.youtube{
+    position: relative;
+    width: 100%;
+    max-width: 597px;
+    margin: -4px 349px;
+}
+
+.youtube iframe{
+    width: 76ex;
+    height: 317px;
+    border: 20px solid green;
+    box-sizing: border-box;
+}
+
+#rodape{
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: rgb(3, 90, 3);
+    padding: 2px;
+    margin: 16px -8px -8px -8px;
+    border: 0px;
+}
+
+li{
+    text-decoration: underline;
+}
+
+main >a{
+    color: #2da262;
+}
+
+a{
+    text-decoration: none;
+    color: #1e6b41;
+}
+
+.cor{
+    color: #1e6b41;
+}

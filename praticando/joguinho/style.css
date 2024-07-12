@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #55bdfa;
+  }
+  
+  canvas {
+    border: 3px solid #000;
+  }
+  

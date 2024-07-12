@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* shorthand font*/
+/* font-style -> font-weight -> font-size -> font-family */
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3em;
+}
+/*Medidas Absolutas
+cm, mm, in: polegada, px, pt, pc
+
+ Medidas Relativas
+ em, ex, rem, vw, vh, %
+
+ weight: peso (lighter, normal, bold, bolder)
+  width: largura
+   height: altura
+*/
+
+p{
+    font-size: medium;
+}
